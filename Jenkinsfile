@@ -5,6 +5,7 @@ pipeline {
 
 		steps	{
 			echo "this is step 1"
+			sh "sudo yum install tree -y"
 			}
 		}
 
